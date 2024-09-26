@@ -9,10 +9,24 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.3",
+    "@tensorflow/tfjs": "^4.21.0",
+    "@tensorflow/tfjs-backend-cpu": "^4.21.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.21.0",
+    "@tensorflow/tfjs-core": "^4.21.0",
+    "@tensorflow/tfjs-react-native": "^1.0.0",
     "expo": "~51.0.28",
+    "expo-camera": "^15.0.16",
+    "expo-file-system": "^17.0.1",
+    "expo-gl": "^14.0.2",
+    "expo-image-picker": "^15.0.7",
     "expo-status-bar": "~1.12.1",
+    "jpeg-js": "^0.4.4",
+    "nsfwjs": "^4.1.0",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "react-native-fs": "^2.20.0",
+    "react-native-paper": "^5.12.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
