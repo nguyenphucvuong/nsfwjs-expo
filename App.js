@@ -87,9 +87,9 @@ export default function App() {
 
     const result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.All,
-      allowsEditing: true,
-      aspect: [4, 3],
-      quality: 1,
+      allowsEditing: false,  // Tắt chế độ chỉnh sửa ảnh
+      //aspect: [4, 3],        // Tùy chọn này không cần thiết khi allowsEditing là false
+      quality: 1,            // Giữ nguyên chất lượng ảnh
     });
 
     if (!result.canceled && result.assets.length > 0) {
